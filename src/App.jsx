@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     
-      <h1>AAYUS KARKI</h1>
+      <h1 className='bg-green-400'>AAYUS KARKI</h1>
       <button onClick={addvalue}>The count is {counter}</button>
     </>
   )
