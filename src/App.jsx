@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Cards from "./cards";
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
     
       <h1 className='bg-green-400'>AAYUS KARKI</h1>
       <button onClick={addvalue}>The count is {counter}</button>
+      <Cards bikename="Mt 15" dettails="mountain"/>
+      <Cards bikename="duke 290" dettails="katmandu"/>
     </>
   )
 }
